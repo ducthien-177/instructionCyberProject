@@ -96,3 +96,39 @@
     background-color: transparent;
     color: #ff4f81;
 }
+
+/* CAROUSEL */
+#carouselCyber .carousel-caption h1{
+    font-size: 52px;
+
+}
+
+#carouselCyber .carousel-caption p{
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+    font-weight: 300;
+
+    width: 70%;
+    margin: 0 auto;
+
+    margin-bottom: 25px;
+}
+#carouselCyber .carousel-caption button{
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 4px;
+    transition: all 0.3s;
+}
+#carouselCyber .carousel-caption button:hover{
+    background-color:#ff4f81;
+    border-color: #ff4f81;
+}
+
+#carouselCyber .carousel-caption {
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
