@@ -4,6 +4,41 @@
 
 }
 
+/* title là tiêu đề cho các đề mục của toàn trang trang, nên sẽ đặt ở phần Global*/
+
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.title h2{
+    font-size: 40px;
+    color: #ff4f81;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.title p{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.title p::after{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+}
+.title--white p{
+    color: white;
+}
+
+.section__space{
+    padding: 5rem 0;
+}
+
 /* HEADER */
 .header__top{
     font-size: 14px;
@@ -131,4 +166,54 @@
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+/* WELCOME */
+.welcome__content>p{
+    width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #999;
+    letter-spacing: 1px;
+    padding: 1rem 0 5rem;
+}
+.welcome__item i{
+    font-size: 2rem;
+}
+.welcome__item h3{
+    color: #ff4f81;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+.welcome__item h4{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.welcome__item p{
+    color: #999;
+    font-size: 15px;
+    line-height: 1.8rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.welcome__col{
+    padding: 1.5rem;
+}
+
+/* OUR STATS */
+.ourStats{
+    background-image: url(../img/imageInstruction/banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ourStats__content{
+    text-align:center;
+    color: white;
 }
